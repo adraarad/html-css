@@ -1,0 +1,31 @@
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.botao1 {
+color: #000;
+border: 2px solid purple;
+padding: 10px 20px;
+font-size: 50px;
+margin: 0 10px;
+cursor: pointer;
+}
+
+.botao2 {
+color: #000;
+border: 2px solid purple;
+padding: 10px 20px;
+font-size: 50px;
+margin: 0 10px;
+cursor: pointer;
+}
+
+.botao1:hover, .botao2:hover{
+    border: 1px solid black;
+    background-color: purple;
+}
